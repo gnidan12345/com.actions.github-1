@@ -7,7 +7,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest # Using linux machine
+    runs-on: ubuntu-18.04 # Using linux machine
 
     steps:
     - uses: actions/checkout@v2 # Checkout the code
